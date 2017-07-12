@@ -1,0 +1,748 @@
+body{
+	background:url(../images/bg-pattern.jpg) repeat;
+	color:#736e5f;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: arial, Georgia, "Times New Roman", serif;
+	min-width:1250px;
+}
+
+a{
+	outline:none;
+}
+
+img{
+	border:0;
+	height:auto;
+}
+
+p{
+	line-height:24px;
+	margin:0;
+}
+
+/*
+--------- Header ----------
+*/
+
+#header{
+	background-color: rgba( 0, 0, 0, 0.3 );
+	height:90px;
+	z-index:10;
+	position:relative;
+}
+
+#header div{
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 0 0 10px;
+	width:1230px;
+}
+
+#header div a#logo{
+	display:block;
+	float:left;
+	padding:20px 0 0;
+}
+
+#header div ul{
+	float:right;
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#header div ul li{
+	border:none;
+	float:left;
+	height:30px;
+	margin-top:35px;
+	padding:0 20px;
+}
+
+#header div ul li:first-child{
+	border:none;
+}
+
+#header div ul li a{
+	color:#e8d59c;
+	font-family: arial, Georgia, "Times New Roman", serif;
+	font-size:17px;
+	letter-spacing:0.02em;
+	line-height:25px;
+	text-decoration:none;
+}
+
+#header div ul li.current a,
+#header div ul li a:hover{
+	border:none;
+	color:#ffffff;
+	padding:0 0 3px;
+}
+
+/*
+--------- Body ----------
+------Banner section(top) (index page)-----
+*/
+
+#container{
+	/*background:url(../images/bg-content.jpg) repeat-x;*/
+	background:white;
+	width:100%;
+	margin-top:-90px;
+}
+
+/*
+Banner Slide
+-------------------
+*/
+
+#container div#featured-banner{
+	margin:0 auto;
+	/*min-height:500px;*/
+	width:100%;
+	overflow:hidden;
+	padding-top:10px;
+}
+
+#container div#featured-banner div#banner-slide{
+	/* height:490px; */
+	position:absolute;
+	width:100%;
+}
+
+#container div#featured-banner div#banner-slide div.banner-pic{
+	display:block;
+	float:left;
+	width:100%;
+}
+
+/*
+--------- Body ----------
+------About section(bottom) (index page)-----
+*/
+
+#container div#content{
+	/* background:url(../images/bg-pattern.jpg) repeat; */
+	background-color:white;
+	border-bottom:2px solid #000000;
+	padding:0;
+	width:100%;
+}
+
+#container div#content div#home,
+#container div#content div#product,
+#container div#content div#services,
+#container div#content div#celebrity,
+#container div#content div#about,
+#container div#content div#contact{
+	margin:0 auto;
+	width:1230px; /*------------------------------------fix---------------------------------*/
+	overflow:hidden;
+}
+
+#container div#content div#services,
+#container div#content div#celebrity,
+#container div#content div#about,
+#container div#content div#contact{
+	padding:0;
+}
+
+#container div#content div#home{
+	padding:0 0 20px 0;
+}
+
+#container div#content div#home div.section{
+	float:left;
+	padding:0 20px 0 0;
+	width:250px;
+}
+
+#container div#content div#home div.section ul{
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:20px 0 0;
+}
+
+#container div#content div#home div.section ul li{
+	float:left;
+	border-bottom:1px solid #cdcdcd;
+	padding:15px 0;
+}
+
+#container div#content div#services div.section ul li:first-child{
+	background:none;
+	padding:0;
+}
+
+#container div#content div#home div.sidebar{
+	float:right;
+	width:950px;
+	padding:20px 0 0 10px;
+}
+
+#container div#content div#home div.sidebar div.body_top ul{
+	float:left;
+	list-style:none;
+	padding:0;
+}
+
+#container div#content div#home div.sidebar div.body_top ul li{
+	float:left;
+	margin:0 21px 0 0;
+}
+
+#container div#content div#home div.sidebar div.body_top ul li:last-child{
+	margin:0;
+}
+
+#container div#content div#home div.sidebar div.body_middle img{
+	margin:30px 0 10px;
+}
+
+#container div#content div#home div.sidebar div.body_bottom ul{
+	float:left;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#container div#content div#home div.sidebar div.body_bottom ul li{
+	float:left;
+	margin:0 12px 0 0;
+}
+
+#container div#content div#home div.sidebar div.body_bottom ul li:last-child{
+	margin:0;
+}
+
+/*
+--------- Body ----------
+------ product page -----
+*/
+
+#container div#content div#back{
+	width:100%;
+	background:url(../images/collection_background.jpg) no-repeat center top;
+	background-size:100%;
+}
+
+#container div#content div#back div#product{
+	width:1230px;
+}
+
+#container div#content div#back div#product div.product_empty{
+	height:450px;
+}
+
+#container div#content div#back div#product div{
+	height:816px;
+}
+
+#container div#content div#back div#product div.product_wedding,
+#container div#content div#back div#product div.product_suits,
+#container div#content div#back div#product div.product_tuxedo{
+	padding:0 0 10px;
+}
+
+#container div#content div#back div#product div.product_shoes{
+	padding:0 0 40px;
+}
+
+#container div#content div#back div#product div.product_wedding div.left{
+	float:left;
+	width:818px;
+	height:816px;
+	margin:0 5px 0 5px;
+}
+
+#container div#content div#back div#product div.product_wedding div.right{
+	float:right;
+	width:402px;
+	height:816px;
+	padding:0;
+	margin:0;
+}
+
+#container div#content div#back div#product div.product_wedding div.right ul{
+	margin:0;
+	list-style:none;
+	overflow:none;
+	padding:0;
+}
+
+#container div#content div#back div#product div.product_wedding div.right ul li{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 8px 5px;
+}
+
+#container div#content div#back div#product div.product_wedding div.right ul li:last-child{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 0 5px;
+}
+
+#container div#content div#back div#product div.product_suits div.right{
+	float:right;
+	width:818px;
+	height:816px;
+	margin:0 0 0 8px;
+}
+
+#container div#content div#back div#product div.product_suits div.left{
+	float:left;
+	width:402px;
+	height:816px;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+#container div#content div#back div#product div.product_suits div.left ul{
+	margin:0;
+	list-style:none;
+	overflow:none;
+	padding:0;
+}
+
+#container div#content div#back div#product div.product_suits div.left ul li{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 8px;
+}
+
+#container div#content div#back div#product div.product_suits div.left ul li:last-child{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 0;
+}
+
+#container div#content div#back div#product div.product_tuxedo div.left{
+	float:left;
+	width:818px;
+	height:816px;
+	margin:0 0 0 5px;
+}
+
+#container div#content div#back div#product div.product_tuxedo div.right{
+	float:right;
+	width:402px;
+	height:816px;
+	padding:0;
+	margin:0;
+}
+
+#container div#content div#back div#product div.product_tuxedo div.right ul{
+	margin:0;
+	list-style:none;
+	overflow:none;
+	padding:0;
+}
+
+#container div#content div#back div#product div.product_tuxedo div.right ul li{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 8px;
+}
+
+#container div#content div#back div#product div.product_tuxedo div.right ul li:last-child{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 0;
+}
+
+#container div#content div#back div#product div.product_shoes div.right{
+	float:right;
+	width:818px;
+	height:816px;
+	margin:0 0 0 8px;
+}
+
+#container div#content div#back div#product div.product_shoes div.left{
+	float:left;
+	width:402px;
+	height:816px;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+#container div#content div#back div#product div.product_shoes div.left ul{
+	margin:0;
+	list-style:none;
+	overflow:none;
+	padding:0;
+}
+
+#container div#content div#back div#product div.product_shoes div.left ul li{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 8px;
+}
+
+#container div#content div#back div#product div.product_shoes div.left ul li:last-child{
+	width:405px;
+	height:405px;
+	padding:0;
+	margin:0 5px 0;
+}
+
+#goTopBtn{
+  display: none;
+  position: fixed;
+  bottom: 120px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #1f1d1e;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#goTopBtn:hover{
+  background-color: #d9b547;
+}
+
+/*
+--------- Body ----------
+------ services page -----
+*/
+#container div.price_top_img{
+	width:100%;
+}
+
+#container div.price_top_img img{
+	width:100%;
+}
+
+#container div#content div#services div.section{
+	border-left:1px solid #cdcdcd;
+	float:right;
+	padding:0 0 40px 10px;
+	width:890px;
+}
+
+#container div#content div#services div.section div{
+	overflow:hidden;
+	padding:0 20px 0 40px;
+}
+
+#container div#content div#services div.section div.price_logo{
+	padding:30px 0 10px 25px;
+}
+
+#container div#content div#services div.sidebar{
+	border-radius:3px;
+	color:black;
+	float:left;
+	margin:0 0 0 10px;
+	padding:30px 0 20px;
+	width:270px;
+}
+
+#container div#content div#services div.sidebar div{
+	border-top:1px solid #cdcdcd;
+	width:240px;
+}
+
+#container div#content div#services div.sidebar div:first-child{
+	border-top:none;
+}
+
+/*
+--------- Body ----------
+------ Celebrity page -----
+*/
+
+#container div.celebrity_top_img{
+	width:100%;
+}
+
+#container div.celebrity_top_img img{
+	width:100%;
+}
+
+#container div#content div#celebrity div.section{
+	border-left:1px solid #cdcdcd;
+	float:right;
+	padding:0 0 40px 10px;
+	width:890px;
+}
+
+#container div#content div#celebrity div.section div.celebrity_pic{
+	overflow:hidden;
+	padding:20px 20px 0 40px;
+}
+
+#container div#content div#celebrity div.section div.celebrity_logo{
+	padding:30px 0 10px 25px;
+}
+
+#container div#content div#celebrity div.sidebar{
+	border-radius:3px;
+	color:black;
+	float:left;
+	margin:0 0 0 10px;
+	padding:30px 0 20px;
+	width:270px;
+}
+
+#container div#content div#celebrity div.sidebar div{
+	border-top:1px solid #cdcdcd;
+	width:240px;
+}
+
+#container div#content div#celebrity div.sidebar div:first-child{
+	border-top:none;
+}
+
+/*
+--------- Body ----------
+------ About page -----
+*/
+
+
+#container div.about_top_img{
+	width:100%;
+}
+
+#container div.about_top_img img{
+	width:100%;
+}
+
+#container div#content div#about div.section{
+	float:right;
+	padding:0 0 40px 10px;
+	border-left:1px solid #cdcdcd;
+	width:890px;
+}
+
+#container div#content div#about div.section div.about_logo{
+	padding:30px 0 10px 25px;
+}
+
+#container div#content div#about div.section div.about_us{
+	padding:20px 0 0 40px;
+}
+
+#container div#content div#about div.section div.location_logo{
+	padding:20px 0 10px 25px;
+}
+
+#container div#content div#about div.section div.location{
+	padding:30px 0 0 60px;
+}
+
+#container div#content div#about div.sidebar{
+	border-radius:3px;
+	color:black;
+	float:left;
+	margin:0 0 0 10px;
+	padding:30px 0 20px;
+	width:270px;
+}
+
+#container div#content div#about div.sidebar div{
+	border-top:1px solid #cdcdcd;
+	width:240px;
+}
+
+#container div#content div#about div.sidebar div:first-child{
+	border-top:none;
+}
+
+/*
+--------- Body ----------
+------ Contact page -----
+*/
+
+#container div.contact_top_img{
+	width:100%;
+}
+
+#container div.contact_top_img img{
+	width:100%;
+}
+
+#container div#content div#contact div.sidebar{
+	border-radius:3px;
+	color:black;
+	float:left;
+	margin:0 0 0 10px;
+	padding:30px 0 20px;
+	width:270px;
+}
+
+#container div#content div#contact div.sidebar div{
+	border-top:1px solid #cdcdcd;
+	width:240px;
+}
+
+#container div#content div#contact div.sidebar div:first-child{
+	border-top:none;
+}
+
+#container div#content div#contact div.section{
+	border-left:1px solid #cdcdcd;
+	float:right;
+	padding:0 0 0 10px;
+	width:890px;
+}
+
+#container div#content div#contact div.section div.contact_logo{
+	padding:30px 0 10px 25px;
+}
+
+#container div#content div#contact div.section div.contact_para{
+	padding:0 25px;
+}
+
+#container div#content div#contact div.section div.confirm_message{
+	height:30px;
+	padding:0 0 5px 60px;
+	line-height:24px;
+}
+
+#container div#content div#contact div.section div.send_mail{
+	overflow:hidden;
+	padding:20px 0 0 40px;
+}
+
+#container div#content div#contact div.section div.send_mail form{
+	float:left;
+	width:650px;
+}
+
+#container div#content div#contact div.section div.send_mail form label{
+	display:block;
+	overflow:hidden;
+	margin:10px 0 0;
+}
+
+#container div#content div#contact div.section div.send_mail form label input#name,
+#container div#content div#contact div.section div.send_mail form label input#phoneNumber{
+	border:1px solid black;
+	border-radius:3px;
+	font-family: arial, Georgia, "Times New Roman", serif;
+	font-size:14px;
+	float:right;
+	letter-spacing:0.05em;
+	padding:0;
+	height:30px;
+	line-height:30px;
+	width:500px;
+	padding:0 10px;
+}
+
+#container div#content div#contact div.section div.send_mail form label textarea{
+	border:1px solid black;
+	border-radius:3px;
+	font-family: arial, Georgia, "Times New Roman", serif;
+	font-size:14px;
+	float:right;
+	height:250px;
+	letter-spacing:0.05em;
+	overflow:auto;
+	padding:0;
+	resize:none;
+	width:500px;
+	padding:10px;
+}
+
+#container div#content div#contact div.section div.send_mail form input#submit{
+	float:right;
+	background:#1f1d1e;
+	font-family: "Malgun Gothic", Georgia, "Times New Roman", serif;
+	font-weight:bold;
+	border:none;
+	border-radius:3px;
+	color:#ffffff;
+	cursor:pointer;
+	font-size:16px;
+	margin:10px 0 0 120px;
+	padding:5px;
+	text-align:center;
+}
+
+#container div#content div#contact div.section div.send_mail form input#submit:hover{
+	background:#d9b547;
+}
+
+
+
+/*
+------------ footer ----------
+*/
+
+#footer{
+	font-family: arial, Georgia, "Times New Roman", serif;
+	margin:0 auto;
+	padding:0 10px;
+	width:1230px;
+}
+
+#footer div{
+	overflow:hidden;
+	padding:22px 0 0;
+}
+
+#footer div div.first{
+	float:left;
+	padding:0 20px 0 40px;
+	width:250px;
+}
+
+#footer div div.first p{
+	letter-spacing:0.05em;
+	text-align:justify;
+}
+
+#footer div div.last{
+	float:left;
+	padding:0 10px 0 80px;
+	width:800px;
+	font-family: "돋움체";
+	font-size:0.96em;
+}
+
+#footer div div.last div{
+	padding:5px 0 15px;
+}
+
+#footer div div.last .table1{
+	padding:7px 0 0;
+	margin:0;
+}
+
+#footer div div.last .table2{
+	padding:0;
+	margin:0;
+}
+
+#footer div div.last form{
+	overflow:hidden;
+	margin:0;
+}
+
+#footer p.footnote{
+	color:#343434;
+	font-family: arial, Georgia, "Times New Roman", serif;
+	font-size: 12px;
+	letter-spacing:0.075em;
+	line-height:25px;
+	text-align:center;
+}
